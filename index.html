@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Unit Converter</title>
+</head>
+
+<body>
+    <header id="head">
+        <div id="div1">
+            <h1 id="heading">Metric/Imperial unit conversion</h1>
+            <input id="input" type="number" placeholder="0">
+            <button id="submit" onclick="inputChange()">Convert</button>
+        </div>
+        
+    </header>
+    <section id="section">
+
+        <div id="div2">
+            <h2>Length (Meter/Feet)</h2>
+            <p><span class="toChange">0</span> meters = <span class="feets">0.000</span> feet | <span class="toChange">0</span> feet = <span class="meters">0.000</span> meters</p>
+
+            <h2>Volume (Liters/Gallons)</h2>
+            <p> <span class="toChange">0</span> liters = <span class="gallons">0.000</span> gallons | <span class="toChange">0</span> gallons = <span class="liters">0.000</span> liters
+            </p>
+
+            <h2>Mass (Kilograms/Pounds)</h2>
+            <p> <span class="toChange">0</span> kilos = <span class="pounds">0.000</span> pounds | <span class="toChange">0</span> pounds = <span class="kilos">0.000</span> kilos</p>
+        </div>
+
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
